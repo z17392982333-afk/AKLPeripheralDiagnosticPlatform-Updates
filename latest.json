@@ -1,0 +1,12 @@
+{
+  "version": "1.8.62",
+  "build": "wheel_delta_notch_fix_20260610",
+  "channel": "stable",
+  "publishedAt": "2026-06-10T14:13:00+08:00",
+  "required": false,
+  "downloadUrl": "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-wheel-delta-notch-fix/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_wheel_delta_notch_fix.exe",
+  "sha256": "AD2FFD55E3D5C38F7D7D4F651BE18D7367BAD73F185E0AEA196D952D6E9B9389",
+  "sizeBytes": 99707430,
+  "notes": "修复鼠标滚轮回滚检测：按 Windows WheelDelta 标准格数累计，兼容快速滚动合并事件和高精度小 Delta 累积。"
+}
+
