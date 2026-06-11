@@ -1,12 +1,11 @@
-{
-  "version": "1.8.62",
-  "build": "wheel_delta_notch_fix_20260610",
-  "channel": "stable",
-  "publishedAt": "2026-06-10T14:13:00+08:00",
-  "required": false,
-  "downloadUrl": "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-wheel-delta-notch-fix/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_wheel_delta_notch_fix.exe",
-  "sha256": "AD2FFD55E3D5C38F7D7D4F651BE18D7367BAD73F185E0AEA196D952D6E9B9389",
-  "sizeBytes": 99707430,
-  "notes": "修复鼠标滚轮回滚检测：按 Windows WheelDelta 标准格数累计，兼容快速滚动合并事件和高精度小 Delta 累积。"
+﻿{
+    "downloadUrl":  "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-mouse-standard-flow/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_mouse_standard_flow.exe",
+    "build":  "mouse_standard_flow_20260611",
+    "version":  "1.8.62",
+    "sizeBytes":  99722090,
+    "notes":  "新增鼠标标准化检测流程：左键、右键、中键、侧键、滚轮上滚、滚轮下滚按 100 次/格完成后弹出人工确认；流程与独立检测互斥，避免重复计数；UI 更新节流，兼顾低配置门店电脑。",
+    "publishedAt":  "2026-06-11T13:08:07+08:00",
+    "sha256":  "67D465A3371AAB3DBBC6D38029D3160E7E4CEBCA42C6AC3E06A1E7B8D070A040",
+    "channel":  "stable",
+    "required":  false
 }
-
