@@ -1,16 +1,16 @@
 {
   "app": "AKLPeripheralDiagnosticPlatform",
   "displayVersion": "1.8.62",
-  "buildId": "20260624_100000",
+  "buildId": "20260624_135000",
   "channel": "stable",
-  "installerUrl": "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-online-update-20260624/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_online_update_20260624_095834.exe",
-  "sha256": "72ADC3D7BA7E74E529E2B2A5A0D6379D3609B4AB8F028FE3BF346F96AD49C253",
+  "installerUrl": "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-headset-completeness-20260624/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_headset_completeness_20260624_135000.exe",
+  "sha256": "EAC2F634D240C78FE9FB91DCBCBCC0FDB4791DB48F2DB00433FDF0FE4AB62A71",
   "mandatory": false,
-  "publishedAt": "2026-06-24T10:00:00+08:00",
-  "notes": "新增手动在线更新能力：客户端可检查 latest.json、确认下载、校验安装包 SHA256，并在用户确认后启动安装程序。",
+  "publishedAt": "2026-06-24T13:50:00+08:00",
+  "notes": "完善耳机检测完整性判定：耳机核心项目未测完时不再输出正常结论，并在报告中标明缺少的检测项。",
   "version": "1.8.62",
-  "build": "online_update_20260624",
-  "downloadUrl": "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-online-update-20260624/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_online_update_20260624_095834.exe",
+  "build": "headset_completeness_20260624",
+  "downloadUrl": "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-headset-completeness-20260624/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_headset_completeness_20260624_135000.exe",
   "required": false,
-  "sizeBytes": 99734480
+  "sizeBytes": 99725739
 }
