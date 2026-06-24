@@ -1,16 +1,17 @@
 {
   "app": "AKLPeripheralDiagnosticPlatform",
   "displayVersion": "1.8.62",
-  "buildId": "20260624_135000",
+  "buildId": "20260624_151000",
   "channel": "stable",
-  "installerUrl": "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-headset-completeness-20260624/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_headset_completeness_20260624_135000.exe",
-  "sha256": "EAC2F634D240C78FE9FB91DCBCBCC0FDB4791DB48F2DB00433FDF0FE4AB62A71",
+  "downloadUrl": "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-update-mirrors-20260624/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_update_mirrors_20260624_151000.exe",
+  "installerUrl": "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-update-mirrors-20260624/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_update_mirrors_20260624_151000.exe",
+  "installerMirrors": [],
+  "sha256": "53B5F89D9009975BA1C6948C7735BA3D22956934DE6AAEE34DE5B57A927C08A2",
   "mandatory": false,
-  "publishedAt": "2026-06-24T13:50:00+08:00",
-  "notes": "完善耳机检测完整性判定：耳机核心项目未测完时不再输出正常结论，并在报告中标明缺少的检测项。",
+  "publishedAt": "2026-06-24T15:10:00+08:00",
+  "notes": "\u65b0\u589e\u591a\u4e0b\u8f7d\u6e90\u5728\u7ebf\u66f4\u65b0\u80fd\u529b\uff1a\u4f18\u5148\u4f7f\u7528\u5feb\u901f\u4e0b\u8f7d\u6e90\uff0c\u5931\u8d25\u540e\u81ea\u52a8\u5c1d\u8bd5\u5907\u7528\u6e90\uff0c\u5e76\u7ee7\u7eed\u6267\u884c SHA256 \u6821\u9a8c\u3002",
   "version": "1.8.62",
-  "build": "headset_completeness_20260624",
-  "downloadUrl": "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-headset-completeness-20260624/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_headset_completeness_20260624_135000.exe",
+  "build": "update_mirrors_20260624",
   "required": false,
-  "sizeBytes": 99725739
+  "sizeBytes": 99737812
 }
