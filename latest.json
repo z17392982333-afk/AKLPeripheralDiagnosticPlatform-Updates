@@ -1,11 +1,16 @@
-﻿{
-    "version":  "1.8.62",
-    "build":  "mouse_standard_stop_sync_20260611",
-    "channel":  "stable",
-    "publishedAt":  "2026-06-11T14:36:35+08:00",
-    "required":  false,
-    "downloadUrl":  "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-mouse-standard-stop-sync/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_mouse_standard_stop_sync.exe",
-    "sha256":  "1A707D31E14E2948EE67D637B068EA2381045A955F1888CEA661FEFAC3C17F46",
-    "sizeBytes":  99725616,
-    "notes":  "修复鼠标标准检测展示同步和中止：新增上方“按键异常”异常类显示；标准流程自动异常会立即同步到上方功能块、实时状态和检测明细；按键、滚轮、移动、拖动异常按类型写入对应异常类；解除标准流程测试区鼠标捕获，测试过程中可点击中止检测。"
+{
+  "app": "AKLPeripheralDiagnosticPlatform",
+  "displayVersion": "1.8.62",
+  "buildId": "20260624_100000",
+  "channel": "stable",
+  "installerUrl": "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-online-update-20260624/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_online_update_20260624_095834.exe",
+  "sha256": "72ADC3D7BA7E74E529E2B2A5A0D6379D3609B4AB8F028FE3BF346F96AD49C253",
+  "mandatory": false,
+  "publishedAt": "2026-06-24T10:00:00+08:00",
+  "notes": "新增手动在线更新能力：客户端可检查 latest.json、确认下载、校验安装包 SHA256，并在用户确认后启动安装程序。",
+  "version": "1.8.62",
+  "build": "online_update_20260624",
+  "downloadUrl": "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-online-update-20260624/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_online_update_20260624_095834.exe",
+  "required": false,
+  "sizeBytes": 99734480
 }
