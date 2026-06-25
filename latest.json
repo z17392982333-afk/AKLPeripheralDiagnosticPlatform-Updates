@@ -1,17 +1,17 @@
 {
   "app": "AKLPeripheralDiagnosticPlatform",
   "displayVersion": "1.8.62",
-  "buildId": "20260625_113000",
+  "buildId": "20260625_160000",
   "channel": "stable",
-  "downloadUrl": "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-headset-standard-music-20260625/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_headset_standard_music_20260625_113000.exe",
-  "installerUrl": "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-headset-standard-music-20260625/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_headset_standard_music_20260625_113000.exe",
+  "downloadUrl": "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-headset-volume-mic-fix-20260625/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_headset_volume_mic_fix_20260625_160000.exe",
+  "installerUrl": "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-headset-volume-mic-fix-20260625/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_headset_volume_mic_fix_20260625_160000.exe",
   "installerMirrors": [],
-  "sha256": "051D6AD987200201E76F3E75BC60457706649EEFB0F7B1541A014A1EBF8D221C",
+  "sha256": "4CFE857883A02DC404AF97D139C2A1A7DB1400AC1F413E857A115043226615DF",
   "mandatory": false,
-  "publishedAt": "2026-06-25T11:30:00+08:00",
-  "notes": "\u8033\u673a\u58f0\u9053\u6d4b\u8bd5\u7edf\u4e00\u4e3a\u540c\u4e00\u6bb5\u6807\u51c6\u97f3\u4e50\u97f3\u6e90\u548c\u76f8\u540c\u54cd\u5ea6\uff1a\u5de6\u58f0\u9053\u3001\u53f3\u58f0\u9053\u3001\u5de6\u53f3\u8f6e\u64ad\u548c\u53cc\u58f0\u9053\u64ad\u653e\u4f7f\u7528\u540c\u4e00\u97f3\u6e90\uff0c\u5e76\u65b0\u589e\u6807\u51c6\u97f3\u4e50\u7247\u6bb5\u7528\u4e8e\u540e\u7eed\u8033\u673a\u542c\u97f3\u6d4b\u8bd5\u3002",
+  "publishedAt": "2026-06-25T16:00:00+08:00",
+  "notes": "恢复耳机低/中/高音量独立测试项，频率测试和音量测试不再共用映射；麦克风录音回放增加短提示音和更强回放归一化，方便区分播放链路无声和录音输入无声。",
   "version": "1.8.62",
-  "build": "headset_standard_music_20260625",
+  "build": "headset_volume_mic_fix_20260625",
   "required": false,
-  "sizeBytes": 99742765
+  "sizeBytes": 99736128
 }
