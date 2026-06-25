@@ -1,17 +1,17 @@
 {
   "app": "AKLPeripheralDiagnosticPlatform",
   "displayVersion": "1.8.62",
-  "buildId": "20260624_151000",
+  "buildId": "20260625_103000",
   "channel": "stable",
-  "downloadUrl": "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-update-mirrors-20260624/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_update_mirrors_20260624_151000.exe",
-  "installerUrl": "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-update-mirrors-20260624/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_update_mirrors_20260624_151000.exe",
+  "downloadUrl": "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-headset-audio-microphone-20260625/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_headset_audio_microphone_20260625_103000.exe",
+  "installerUrl": "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-headset-audio-microphone-20260625/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_headset_audio_microphone_20260625_103000.exe",
   "installerMirrors": [],
-  "sha256": "53B5F89D9009975BA1C6948C7735BA3D22956934DE6AAEE34DE5B57A927C08A2",
+  "sha256": "D36B3DEC3B911110EBC2654B04EAC774953D0A9F95D331E8DE7442F5BB47E9BF",
   "mandatory": false,
-  "publishedAt": "2026-06-24T15:10:00+08:00",
-  "notes": "\u65b0\u589e\u591a\u4e0b\u8f7d\u6e90\u5728\u7ebf\u66f4\u65b0\u80fd\u529b\uff1a\u4f18\u5148\u4f7f\u7528\u5feb\u901f\u4e0b\u8f7d\u6e90\uff0c\u5931\u8d25\u540e\u81ea\u52a8\u5c1d\u8bd5\u5907\u7528\u6e90\uff0c\u5e76\u7ee7\u7eed\u6267\u884c SHA256 \u6821\u9a8c\u3002",
+  "publishedAt": "2026-06-25T10:40:00+08:00",
+  "notes": "\u5347\u7ea7\u8033\u673a\u68c0\u6d4b\uff1a\u97f3\u9891\u7d20\u6750\u6539\u4e3a\u5de6\u53f3\u58f0\u9053\u3001\u5de6\u53f3\u8f6e\u64ad\u548c\u4f4e\u4e2d\u9ad8\u9891\u68c0\u67e5\uff0c\u72ec\u7acb\u8033\u673a\u68c0\u6d4b\u589e\u52a0\u9ea6\u514b\u98ce 5 \u79d2\u5f55\u97f3\u56de\u653e\u786e\u8ba4\uff0c\u5e76\u540c\u6b65\u62a5\u544a\u5b8c\u6574\u6027\u5224\u5b9a\u3002",
   "version": "1.8.62",
-  "build": "update_mirrors_20260624",
+  "build": "headset_audio_microphone_20260625",
   "required": false,
-  "sizeBytes": 99737812
+  "sizeBytes": 99738618
 }
