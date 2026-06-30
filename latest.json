@@ -1,17 +1,17 @@
 {
   "app": "AKLPeripheralDiagnosticPlatform",
   "displayVersion": "1.8.62",
-  "buildId": "20260625_160000",
+  "buildId": "20260629_113000",
   "channel": "stable",
-  "downloadUrl": "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-headset-volume-mic-fix-20260625/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_headset_volume_mic_fix_20260625_160000.exe",
-  "installerUrl": "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-headset-volume-mic-fix-20260625/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_headset_volume_mic_fix_20260625_160000.exe",
+  "downloadUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_hidpp_sibling_dedup_20260630.exe",
+  "installerUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_hidpp_sibling_dedup_20260630.exe",
   "installerMirrors": [],
-  "sha256": "4CFE857883A02DC404AF97D139C2A1A7DB1400AC1F413E857A115043226615DF",
+  "sha256": "53F11459814A70793B4D702D35FDE7185FC913DC9CFC195D3841544445DB8A10",
   "mandatory": false,
-  "publishedAt": "2026-06-25T16:00:00+08:00",
-  "notes": "恢复耳机低/中/高音量独立测试项，频率测试和音量测试不再共用映射；麦克风录音回放增加短提示音和更强回放归一化，方便区分播放链路无声和录音输入无声。",
+  "publishedAt": "2026-06-30T16:10:00+08:00",
+  "notes": "优化 HID++ 监控稳定性，消除重复轮询，并修复同一物理设备的协议兄弟节点重复显示问题。安装包改由北京 OSS 提供下载。",
   "version": "1.8.62",
-  "build": "headset_volume_mic_fix_20260625",
+  "build": "hidpp_sibling_dedup_20260630",
   "required": false,
-  "sizeBytes": 99736128
+  "sizeBytes": 99871815
 }
