@@ -1,17 +1,17 @@
 {
   "app": "AKLPeripheralDiagnosticPlatform",
   "displayVersion": "1.8.62",
-  "buildId": "20260629_113000",
+  "buildId": "20260630_164500",
   "channel": "stable",
-  "downloadUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_hidpp_sibling_dedup_20260630.exe",
-  "installerUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_hidpp_sibling_dedup_20260630.exe",
+  "downloadUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_oss_manifest_bridge_20260630_164500.exe",
+  "installerUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_oss_manifest_bridge_20260630_164500.exe",
   "installerMirrors": [],
-  "sha256": "53F11459814A70793B4D702D35FDE7185FC913DC9CFC195D3841544445DB8A10",
+  "sha256": "6327698F428E2327500FF66C88BE00E05F216CF914ECF628F3866AD768D25FD0",
   "mandatory": false,
-  "publishedAt": "2026-06-30T16:10:00+08:00",
-  "notes": "优化 HID++ 监控稳定性，消除重复轮询，并修复同一物理设备的协议兄弟节点重复显示问题。安装包改由北京 OSS 提供下载。",
+  "publishedAt": "2026-06-30T16:50:00+08:00",
+  "notes": "在线更新改为优先读取北京 OSS 更新清单，并保留 GitHub 备用源；单个来源发生 TLS、网络或超时错误时自动切换。首次迁移时请手动安装本桥接包。",
   "version": "1.8.62",
-  "build": "hidpp_sibling_dedup_20260630",
+  "build": "oss_manifest_bridge_20260630_164500",
   "required": false,
-  "sizeBytes": 99871815
+  "sizeBytes": 99876279
 }
