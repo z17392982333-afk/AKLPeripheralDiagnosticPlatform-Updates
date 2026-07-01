@@ -1,17 +1,19 @@
 {
   "app": "AKLPeripheralDiagnosticPlatform",
   "displayVersion": "1.8.62",
-  "buildId": "20260630_170600",
+  "buildId": "20260630_180518",
   "channel": "stable",
-  "downloadUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_oss_e2e_test_20260630_170600.exe",
-  "installerUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_oss_e2e_test_20260630_170600.exe",
-  "installerMirrors": [],
-  "sha256": "C3B3A663209B1280FC4D9C83C41612E598A19564A6CB7E0657595E2B0390A45B",
+  "downloadUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_mouse_report_rate_20260630_180518.exe",
+  "installerUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_mouse_report_rate_20260630_180518.exe",
+  "installerMirrors": [
+    "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-mouse-report-rate-20260630/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_mouse_report_rate_20260630_180518.exe"
+  ],
+  "sha256": "4A2F4B4A04B48DB8FD21849297F53B9ED1D53ABB52C458CA8C2DB3CDD8B068F9",
   "mandatory": false,
-  "publishedAt": "2026-06-30T17:10:00+08:00",
-  "notes": "在线更新端到端测试包：用于验证 OSS 清单发现、安装包下载、SHA256 校验和安装启动流程。业务功能与桥接版本保持一致。",
+  "publishedAt": "2026-07-01T14:34:23+08:00",
+  "notes": "新增鼠标实际回报率专项检测与标准化流程项目；8 秒临时 RawInput 采集，显示中位回报率、稳定范围、波动、样本数和有效移动时长；低结果采用复测确认策略；OSS 为主下载源，GitHub Release 为备用源。",
   "version": "1.8.62",
-  "build": "oss_e2e_test_20260630_170600",
+  "build": "mouse_report_rate_20260630_180518",
   "required": false,
-  "sizeBytes": 99882515
+  "sizeBytes": 99886679
 }
