@@ -1,19 +1,19 @@
 {
   "app": "AKLPeripheralDiagnosticPlatform",
   "displayVersion": "1.8.63",
-  "buildId": "20260706_091224",
+  "buildId": "20260706_101824",
   "channel": "stable",
-  "downloadUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.63_battery-monitor-stability_20260706_091224.exe",
-  "installerUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.63_battery-monitor-stability_20260706_091224.exe",
+  "downloadUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.63_pairing-session-continuity_20260706_101824.exe",
+  "installerUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.63_pairing-session-continuity_20260706_101824.exe",
   "installerMirrors": [
-    "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.63-battery-monitor-stability-20260706_091224/AKLPeripheralDiagnosticPlatform_Setup_v1.8.63_battery-monitor-stability_20260706_091224.exe"
+    "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.63-pairing-session-continuity-20260706_101824/AKLPeripheralDiagnosticPlatform_Setup_v1.8.63_pairing-session-continuity_20260706_101824.exe"
   ],
-  "sha256": "0FE7D4FBA27C0B62EF2B3FD80F879ABBCDB2CBE63CE754EBF2880CC8B49F586E",
+  "sha256": "8BC40AFB6D040D3F01D870DE3F60445D4D0E0A1F0F55A7DEDDC39FF731E54F49",
   "mandatory": false,
-  "publishedAt": "2026-07-06T10:09:31+08:00",
-  "notes": "修复 HID++ 电量采样中断与重复 Worker 重建；NoFeature 占位行不再触发全局恢复；增加中断标记与约一分钟自动恢复边界；补齐键盘映射与捕获状态协调；新增设备级 FT/NFF 必测状态与报告约束；增加单实例保护和固定产品验收矩阵。",
+  "publishedAt": "2026-07-06T10:25:31+08:00",
+  "notes": "修复接收器配对暂停后重置本次监控起点的问题；配对结束后继续原监控会话和趋势窗口；保留已有样本、会话文件和提醒计时；配对空档继续使用中断标记排除，不参与掉电率和异常计算。",
   "version": "1.8.63",
-  "build": "battery-monitor-stability_20260706_091224",
+  "build": "pairing-session-continuity_20260706_101824",
   "required": false,
-  "sizeBytes": 99884536
+  "sizeBytes": 99887304
 }
