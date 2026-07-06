@@ -1,19 +1,19 @@
 {
   "app": "AKLPeripheralDiagnosticPlatform",
-  "displayVersion": "1.8.62",
-  "buildId": "20260630_180518",
+  "displayVersion": "1.8.63",
+  "buildId": "20260706_091224",
   "channel": "stable",
-  "downloadUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_mouse_report_rate_20260630_180518.exe",
-  "installerUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_mouse_report_rate_20260630_180518.exe",
+  "downloadUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.63_battery-monitor-stability_20260706_091224.exe",
+  "installerUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.63_battery-monitor-stability_20260706_091224.exe",
   "installerMirrors": [
-    "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.62-mouse-report-rate-20260630/AKLPeripheralDiagnosticPlatform_Setup_v1.8.62_mouse_report_rate_20260630_180518.exe"
+    "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.63-battery-monitor-stability-20260706_091224/AKLPeripheralDiagnosticPlatform_Setup_v1.8.63_battery-monitor-stability_20260706_091224.exe"
   ],
-  "sha256": "4A2F4B4A04B48DB8FD21849297F53B9ED1D53ABB52C458CA8C2DB3CDD8B068F9",
+  "sha256": "0FE7D4FBA27C0B62EF2B3FD80F879ABBCDB2CBE63CE754EBF2880CC8B49F586E",
   "mandatory": false,
-  "publishedAt": "2026-07-01T14:34:23+08:00",
-  "notes": "新增鼠标实际回报率专项检测与标准化流程项目；8 秒临时 RawInput 采集，显示中位回报率、稳定范围、波动、样本数和有效移动时长；低结果采用复测确认策略；OSS 为主下载源，GitHub Release 为备用源。",
-  "version": "1.8.62",
-  "build": "mouse_report_rate_20260630_180518",
+  "publishedAt": "2026-07-06T10:09:31+08:00",
+  "notes": "修复 HID++ 电量采样中断与重复 Worker 重建；NoFeature 占位行不再触发全局恢复；增加中断标记与约一分钟自动恢复边界；补齐键盘映射与捕获状态协调；新增设备级 FT/NFF 必测状态与报告约束；增加单实例保护和固定产品验收矩阵。",
+  "version": "1.8.63",
+  "build": "battery-monitor-stability_20260706_091224",
   "required": false,
-  "sizeBytes": 99886679
+  "sizeBytes": 99884536
 }
