@@ -1,19 +1,19 @@
 {
   "app": "AKLPeripheralDiagnosticPlatform",
   "displayVersion": "1.8.63",
-  "buildId": "20260706_101824",
+  "buildId": "20260713_070214",
   "channel": "stable",
-  "downloadUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.63_pairing-session-continuity_20260706_101824.exe",
-  "installerUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.63_pairing-session-continuity_20260706_101824.exe",
+  "downloadUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.63_non-signing-stability-fixes_20260713_070214.exe",
+  "installerUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.63_non-signing-stability-fixes_20260713_070214.exe",
   "installerMirrors": [
-    "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.63-pairing-session-continuity-20260706_101824/AKLPeripheralDiagnosticPlatform_Setup_v1.8.63_pairing-session-continuity_20260706_101824.exe"
+    "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.63-non-signing-stability-fixes-20260713_070214/AKLPeripheralDiagnosticPlatform_Setup_v1.8.63_non-signing-stability-fixes_20260713_070214.exe"
   ],
-  "sha256": "8BC40AFB6D040D3F01D870DE3F60445D4D0E0A1F0F55A7DEDDC39FF731E54F49",
+  "sha256": "50EFFFCD1C678BD98CAE39DB2E95EE2CAF24F51C72B0AEC3B0C2E97BED450A45",
   "mandatory": false,
-  "publishedAt": "2026-07-06T10:25:31+08:00",
-  "notes": "修复接收器配对暂停后重置本次监控起点的问题；配对结束后继续原监控会话和趋势窗口；保留已有样本、会话文件和提醒计时；配对空档继续使用中断标记排除，不参与掉电率和异常计算。",
+  "publishedAt": "2026-07-13T07:24:31+01:00",
+  "notes": "修复更新源择新与冲突校验；增加 CoreAudio 运行检查；限制长期会话存储并后台保存；清理内置产品库重复键；签名不在本次范围内。",
   "version": "1.8.63",
-  "build": "pairing-session-continuity_20260706_101824",
+  "build": "non-signing-stability-fixes_20260713_070214",
   "required": false,
-  "sizeBytes": 99887304
+  "sizeBytes": 99880891
 }
