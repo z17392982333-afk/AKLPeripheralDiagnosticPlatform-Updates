@@ -1,19 +1,19 @@
 {
-  "app": "AKLPeripheralDiagnosticPlatform",
-  "displayVersion": "1.8.63",
-  "buildId": "20260713_070214",
-  "channel": "stable",
-  "downloadUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.63_non-signing-stability-fixes_20260713_070214.exe",
-  "installerUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.63_non-signing-stability-fixes_20260713_070214.exe",
-  "installerMirrors": [
-    "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.63-non-signing-stability-fixes-20260713_070214/AKLPeripheralDiagnosticPlatform_Setup_v1.8.63_non-signing-stability-fixes_20260713_070214.exe"
-  ],
-  "sha256": "50EFFFCD1C678BD98CAE39DB2E95EE2CAF24F51C72B0AEC3B0C2E97BED450A45",
-  "mandatory": false,
-  "publishedAt": "2026-07-13T07:24:31+01:00",
-  "notes": "修复更新源择新与冲突校验；增加 CoreAudio 运行检查；限制长期会话存储并后台保存；清理内置产品库重复键；签名不在本次范围内。",
-  "version": "1.8.63",
-  "build": "non-signing-stability-fixes_20260713_070214",
-  "required": false,
-  "sizeBytes": 99880891
+    "app":  "AKLPeripheralDiagnosticPlatform",
+    "displayVersion":  "1.8.64",
+    "buildId":  "20260713_070214",
+    "channel":  "stable",
+    "downloadUrl":  "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.64-receiver-pairing-monitor-restore-20260713_070214/AKLPeripheralDiagnosticPlatform_Setup_v1.8.64_receiver-pairing-monitor-restore_20260713_070214.exe",
+    "installerUrl":  "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.64-receiver-pairing-monitor-restore-20260713_070214/AKLPeripheralDiagnosticPlatform_Setup_v1.8.64_receiver-pairing-monitor-restore_20260713_070214.exe",
+    "installerMirrors":  [
+                             "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.64-receiver-pairing-monitor-restore-20260713_070214/AKLPeripheralDiagnosticPlatform_Setup_v1.8.64_receiver-pairing-monitor-restore_20260713_070214.exe"
+                         ],
+    "sha256":  "C3B16E6A7AE044E26C244B8FBA848A00303B7871933DF1F93610B750647E5BB3",
+    "mandatory":  false,
+    "publishedAt":  "2026-07-17T13:05:02+08:00",
+    "notes":  "修复接收器配对后 HID++ 电量监控不会自动恢复的问题；打开配对窗口不再立即中断监控，实际启动配对渠道时短暂停止并自动恢复；增加回归检查防止后续退化。",
+    "version":  "1.8.64",
+    "build":  "receiver-pairing-monitor-restore_20260713_070214",
+    "required":  false,
+    "sizeBytes":  99891248
 }
