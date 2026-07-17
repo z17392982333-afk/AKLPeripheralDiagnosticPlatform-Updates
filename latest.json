@@ -1,19 +1,19 @@
 {
     "app":  "AKLPeripheralDiagnosticPlatform",
     "displayVersion":  "1.8.64",
-    "buildId":  "20260713_070214",
+    "buildId":  "20260717_164237",
     "channel":  "stable",
-    "downloadUrl":  "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.64-receiver-pairing-monitor-restore-20260713_070214/AKLPeripheralDiagnosticPlatform_Setup_v1.8.64_receiver-pairing-monitor-restore_20260713_070214.exe",
-    "installerUrl":  "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.64-receiver-pairing-monitor-restore-20260713_070214/AKLPeripheralDiagnosticPlatform_Setup_v1.8.64_receiver-pairing-monitor-restore_20260713_070214.exe",
+    "downloadUrl":  "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.64_ft-motion-wording_20260717_164237.exe",
+    "installerUrl":  "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.64_ft-motion-wording_20260717_164237.exe",
     "installerMirrors":  [
-                             "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.64-receiver-pairing-monitor-restore-20260713_070214/AKLPeripheralDiagnosticPlatform_Setup_v1.8.64_receiver-pairing-monitor-restore_20260713_070214.exe"
+                             "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.64-ft-motion-wording-20260717_164237/AKLPeripheralDiagnosticPlatform_Setup_v1.8.64_ft-motion-wording_20260717_164237.exe"
                          ],
-    "sha256":  "C3B16E6A7AE044E26C244B8FBA848A00303B7871933DF1F93610B750647E5BB3",
+    "sha256":  "AFCB9B4F0C5B89923C6590197F77591A2E506AD68471FEC763E79A38568FB230",
     "mandatory":  false,
-    "publishedAt":  "2026-07-17T13:05:02+08:00",
-    "notes":  "修复接收器配对后 HID++ 电量监控不会自动恢复的问题；打开配对窗口不再立即中断监控，实际启动配对渠道时短暂停止并自动恢复；增加回归检查防止后续退化。",
+    "publishedAt":  "2026-07-17T16:56:14+08:00",
+    "notes":  "FT/NFF流程中将划线连续性调整为移动连续性；将移动流畅度调整为输入流稳定性；独立画板仍保留划线连续性；对外报告同步运动质量命名。",
     "version":  "1.8.64",
-    "build":  "receiver-pairing-monitor-restore_20260713_070214",
+    "build":  "ft-motion-wording_20260717_164237",
     "required":  false,
-    "sizeBytes":  99891248
+    "sizeBytes":  99895070
 }
