@@ -1,19 +1,19 @@
 {
-    "app":  "AKLPeripheralDiagnosticPlatform",
-    "displayVersion":  "1.8.64",
-    "buildId":  "20260720_162000",
-    "channel":  "stable",
-    "downloadUrl":  "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.64-mouse-nff-first-tab-20260720_162000/AKLPeripheralDiagnosticPlatform_Setup_v1.8.64_mouse-nff-first-tab_20260720_162000.exe",
-    "installerUrl":  "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.64-mouse-nff-first-tab-20260720_162000/AKLPeripheralDiagnosticPlatform_Setup_v1.8.64_mouse-nff-first-tab_20260720_162000.exe",
-    "installerMirrors":  [
-                             "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.64_mouse-nff-first-tab_20260720_162000.exe"
-                         ],
-    "sha256":  "843394A94B69653FBB7C6D0BA0C9A0D9B61CD380AF8BC252E94DA0F8CA736932",
-    "mandatory":  false,
-    "publishedAt":  "2026-07-20T16:29:56+08:00",
-    "notes":  "调整鼠标检测入口，NFF/FT 流程默认在独立检测之前；修复键盘标准布局与快捷键显示；更新 BuildId 以支持在线更新识别。",
-    "version":  "1.8.64",
-    "build":  "mouse-nff-first-tab_20260720_162000",
-    "required":  false,
-    "sizeBytes":  99891177
+  "app": "AKLPeripheralDiagnosticPlatform",
+  "displayVersion": "1.8.64",
+  "buildId": "20260722_105712",
+  "channel": "stable",
+  "downloadUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.64_mouse-nff-report-feedback_20260722_105712.exe",
+  "installerUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.64_mouse-nff-report-feedback_20260722_105712.exe",
+  "installerMirrors": [
+    "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.64-mouse-nff-report-feedback-20260722_105712/AKLPeripheralDiagnosticPlatform_Setup_v1.8.64_mouse-nff-report-feedback_20260722_105712.exe"
+  ],
+  "sha256": "F218B79C3E5EBC027E948CE1171ACEF04F3D1F0DF1D99D68F0F501C3CD752726",
+  "mandatory": false,
+  "publishedAt": "2026-07-22T11:08:33+08:00",
+  "notes": "鼠标 NFF 初检调整为 50 次；FT 移除移动连续性、输入流稳定性和实际回报率；划线画板支持中键；优化检测布局和按下/通过状态反馈；重构对外报告并保存客户故障描述；修复按下反馈引起的界面延迟。",
+  "version": "1.8.64",
+  "build": "mouse-nff-report-feedback_20260722_105712",
+  "required": false,
+  "sizeBytes": 99890894
 }
