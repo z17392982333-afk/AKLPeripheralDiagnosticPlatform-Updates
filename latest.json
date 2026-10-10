@@ -1,19 +1,19 @@
 {
   "app": "AKLPeripheralDiagnosticPlatform",
-  "displayVersion": "1.8.64",
-  "buildId": "20260722_105712",
+  "displayVersion": "1.8.68",
+  "buildId": "20260930_085036",
   "channel": "stable",
-  "downloadUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.64_mouse-nff-report-feedback_20260722_105712.exe",
-  "installerUrl": "https://akl-peripheral-updates-cn.oss-cn-beijing.aliyuncs.com/AKLPeripheralDiagnosticPlatform_Setup_v1.8.64_mouse-nff-report-feedback_20260722_105712.exe",
+  "downloadUrl": "https://updates.kl.gripe/AKLPeripheralDiagnosticPlatform_Setup.exe",
+  "installerUrl": "https://updates.kl.gripe/AKLPeripheralDiagnosticPlatform_Setup.exe",
   "installerMirrors": [
-    "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.64-mouse-nff-report-feedback-20260722_105712/AKLPeripheralDiagnosticPlatform_Setup_v1.8.64_mouse-nff-report-feedback_20260722_105712.exe"
+    "http://192.168.0.34:8080/AKLPeripheralDiagnosticPlatform_Setup.exe"
   ],
-  "sha256": "F218B79C3E5EBC027E948CE1171ACEF04F3D1F0DF1D99D68F0F501C3CD752726",
+  "sha256": "97A31E6E56B23A0DC7E7402BC84C28B01BC04474E02BB0BD2A5831427B6A66EA",
   "mandatory": false,
-  "publishedAt": "2026-07-22T11:08:33+08:00",
-  "notes": "鼠标 NFF 初检调整为 50 次；FT 移除移动连续性、输入流稳定性和实际回报率；划线画板支持中键；优化检测布局和按下/通过状态反馈；重构对外报告并保存客户故障描述；修复按下反馈引起的界面延迟。",
-  "version": "1.8.64",
-  "build": "mouse-nff-report-feedback_20260722_105712",
+  "publishedAt": "2026-10-10T04:29:32+01:00",
+  "notes": "支持通过更新源电脑进行异地在线更新；新增按设备唯一编码保存维修与质保档案，服务中心及组别下拉选择，合并维修内容和更换部件填写。",
+  "version": "1.8.68",
+  "build": "remote_20260930_085036",
   "required": false,
-  "sizeBytes": 99890894
+  "sizeBytes": 100060377
 }
