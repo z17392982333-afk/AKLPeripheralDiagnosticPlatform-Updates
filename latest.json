@@ -1,19 +1,19 @@
 {
   "app": "AKLPeripheralDiagnosticPlatform",
-  "displayVersion": "1.8.68",
-  "buildId": "20260930_085036",
+  "displayVersion": "1.8.69",
+  "buildId": "20261010_034423",
   "channel": "stable",
-  "downloadUrl": "https://updates.kl.gripe/AKLPeripheralDiagnosticPlatform_Setup.exe",
-  "installerUrl": "https://updates.kl.gripe/AKLPeripheralDiagnosticPlatform_Setup.exe",
+  "downloadUrl": "https://updates.kl.gripe/AKLPeripheralDiagnosticPlatform_Setup_v1.8.69_builtin-remote-updates_20261010_034423.exe",
+  "installerUrl": "https://updates.kl.gripe/AKLPeripheralDiagnosticPlatform_Setup_v1.8.69_builtin-remote-updates_20261010_034423.exe",
   "installerMirrors": [
-    "http://192.168.0.34:8080/AKLPeripheralDiagnosticPlatform_Setup.exe"
+    "http://192.168.0.34:8080/AKLPeripheralDiagnosticPlatform_Setup_v1.8.69_builtin-remote-updates_20261010_034423.exe"
   ],
-  "sha256": "97A31E6E56B23A0DC7E7402BC84C28B01BC04474E02BB0BD2A5831427B6A66EA",
+  "sha256": "CE9E7E0BC444DEA9D01DF49E38CA19668D0A942E067609B6C9B389916C895816",
   "mandatory": false,
-  "publishedAt": "2026-10-10T04:29:32+01:00",
-  "notes": "支持通过更新源电脑进行异地在线更新；新增按设备唯一编码保存维修与质保档案，服务中心及组别下拉选择，合并维修内容和更换部件填写。",
-  "version": "1.8.68",
-  "build": "remote_20260930_085036",
+  "publishedAt": "2026-10-10T04:44:23+01:00",
+  "notes": "内置异地更新入口，旧更新配置不再遗漏新入口，无需单独运行更新源修复包；保留局域网更新及既有检测、维修档案功能。",
+  "version": "1.8.69",
+  "build": "remote_20261010_034423",
   "required": false,
-  "sizeBytes": 100060377
+  "sizeBytes": 100113324
 }
