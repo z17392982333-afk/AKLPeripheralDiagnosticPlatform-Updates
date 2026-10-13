@@ -1,6 +1,15 @@
 ﻿# Changelog
 
-本文件记录更新渠道的发布内容。当前版本为 `1.8.73`，安装包通过公网 HTTPS 和局域网镜像分发。
+本文件记录更新渠道的发布内容。当前版本为 `1.8.74`，安装包通过公网 HTTPS、GitHub Release 和局域网镜像分发。
+
+## 1.8.74 - Build 20261013_111013 - 2026-10-13
+
+- 对支持 HID++ 设备名称特性的设备，补充读取产品名称，改善 Windows 或接收器仅显示泛化名称的情况。
+- 产品库名称及现有有效设备名称仍优先；读取成功后缓存，读取失败按退避间隔重试。
+- 不改变电量读取、设备唯一编码、配对、连接判定或扫描流程。
+- 非强制更新。安装包大小 100106351 字节，SHA256 `9EC8A8F6EB8B2DD2D9ECAC4412221B7FC541D803D967B489272455167BB6B154`。
+- 下载入口：https://updates.kl.gripe/AKLPeripheralDiagnosticPlatform_Setup_v1.8.74_openlogi-name-fallback_20261013_111013.exe
+- GitHub Release：v1.8.74-openlogi-name-fallback-20261013_111013
 
 ## 1.8.73 - Build 20261010_082019 - 2026-10-10
 

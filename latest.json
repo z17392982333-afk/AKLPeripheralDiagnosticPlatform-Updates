@@ -1,19 +1,20 @@
 {
   "app": "AKLPeripheralDiagnosticPlatform",
-  "displayVersion": "1.8.73",
-  "buildId": "20261010_082019",
+  "displayVersion": "1.8.74",
+  "buildId": "20261013_111013",
   "channel": "stable",
-  "downloadUrl": "https://updates.kl.gripe/AKLPeripheralDiagnosticPlatform_Setup_v1.8.73_text-contrast_20261010_082019.exe",
-  "installerUrl": "https://updates.kl.gripe/AKLPeripheralDiagnosticPlatform_Setup_v1.8.73_text-contrast_20261010_082019.exe",
+  "downloadUrl": "https://updates.kl.gripe/AKLPeripheralDiagnosticPlatform_Setup_v1.8.74_openlogi-name-fallback_20261013_111013.exe",
+  "installerUrl": "https://updates.kl.gripe/AKLPeripheralDiagnosticPlatform_Setup_v1.8.74_openlogi-name-fallback_20261013_111013.exe",
   "installerMirrors": [
-    "http://192.168.0.34:8080/AKLPeripheralDiagnosticPlatform_Setup_v1.8.73_text-contrast_20261010_082019.exe"
+    "https://github.com/z17392982333-afk/AKLPeripheralDiagnosticPlatform-Updates/releases/download/v1.8.74-openlogi-name-fallback-20261013_111013/AKLPeripheralDiagnosticPlatform_Setup_v1.8.74_openlogi-name-fallback_20261013_111013.exe",
+    "http://192.168.0.34:8080/AKLPeripheralDiagnosticPlatform_Setup_v1.8.74_openlogi-name-fallback_20261013_111013.exe"
   ],
-  "sha256": "D14E0C652F467F881DBB57215D5D4F311837E6BCDF9E878BB8305BA7861745EA",
+  "sha256": "9EC8A8F6EB8B2DD2D9ECAC4412221B7FC541D803D967B489272455167BB6B154",
   "mandatory": false,
-  "publishedAt": "2026-10-10T07:42:57Z",
-  "notes": "统一浅色办公、深色办公和高对比度主题；修复维修登记页、产品库表头及检测提示文字不可见问题，补齐首次启动等待状态；保留现有设备检测、照片取证和维修档案功能。",
-  "version": "1.8.73",
-  "build": "remote_20261010_082019",
+  "publishedAt": "2026-10-13T10:25:14Z",
+  "notes": "补充支持 HID++ 设备名称特性的设备产品名读取；现有产品库名称和有效设备名称仍优先，不改变电量、唯一编码、配对或连接判断。",
+  "version": "1.8.74",
+  "build": "openlogi-name-fallback_20261013_111013",
   "required": false,
-  "sizeBytes": 100108018
+  "sizeBytes": 100106351
 }
